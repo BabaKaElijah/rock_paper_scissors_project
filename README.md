@@ -86,5 +86,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Author
 
-Your Name – [GitHub Profile](https://github.com/YourUsername)
+Ellias Sithole – [GitHub Profile](https://github.com/BabaKaElijah)
 
