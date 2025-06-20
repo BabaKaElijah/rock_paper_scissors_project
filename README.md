@@ -68,14 +68,6 @@ Enjoy playing!
 - Improve UI/UX design.  
 - Add sounds for interactions.  
 
----
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
 ## Author
 
 Ellias Sithole – [GitHub Profile](https://github.com/BabaKaElijah)
