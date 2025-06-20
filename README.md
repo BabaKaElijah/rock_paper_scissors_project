@@ -37,14 +37,6 @@ The main JavaScript logic is in `script.js`. Key functions include:
 - `updateScoreElement()`: Updates the score display on the page.
 - Auto-play uses `setInterval` to repeatedly play rounds every second.
 
----
-
-## Screenshots
-
-*Include screenshots here of your game interface and gameplay for better presentation.*
-
----
-
 ## How to Run Locally
 
 1. Clone the repository:
