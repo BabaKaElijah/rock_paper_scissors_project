@@ -3,6 +3,8 @@
 A simple interactive Rock Paper Scissors game built with JavaScript.  
 The game keeps track of your wins, losses, and ties using the browser's local storage, allowing you to continue your game progress even after refreshing the page.
 
+![Rock Paper Scissors Screenshot](rps.PNG) <!-- Optional: Add a screenshot of your app -->
+
 ---
 
 ## Features
