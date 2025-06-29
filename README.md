@@ -72,5 +72,5 @@ Enjoy playing!
 
 ## Author
 
-Ellias Sithole – [GitHub Profile](https://github.com/BabaKaElijah)
+Ellias Sithole 
 
