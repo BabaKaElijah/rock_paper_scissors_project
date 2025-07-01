@@ -29,6 +29,61 @@ The game keeps track of your wins, losses, and ties using the browser's local st
 5. Click the **Auto Play** button to start or stop the game playing automatically every second.
 
 ---
+## 🧾 HTML Structure for Rock Paper Scissors Game
+
+Below is the `index.html` file that creates the structure of the game interface. It includes buttons for user input, sections for results and scores, and connects to the external JavaScript and CSS files.
+
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles/rock-paper-scissors.css">
+</head>
+
+<body>
+  <p class="title">Rock Paper Scissors</p>
+
+  <!-- Player move buttons with emojis -->
+  <button class="move-button js-rock-button">
+    <img src="images/rock-emoji.png" class="move-icon">
+  </button>
+
+  <button class="move-button js-paper-button">
+    <img src="images/paper-emoji.png" class="move-icon">
+  </button>
+
+  <button class="move-button js-scissors-button">
+    <img src="images/scissors-emoji.png" class="move-icon">
+  </button>
+
+  <!-- Result of the game -->
+  <p class="js-result result"></p>
+
+  <!-- Player and computer moves -->
+  <p class="js-moves"></p>
+
+  <!-- Scoreboard -->
+  <p class="js-score score"></p>
+
+  <!-- Reset and Auto Play controls -->
+  <button onclick="
+    score.wins = 0;
+    score.losses = 0;
+    score.ties = 0;
+    localStorage.removeItem('score');
+    updateScoreElement();
+  " class="reset-score-button">Reset Score</button>
+
+  <button class="auto-play-button js-auto-play-button">Auto Play</button>
+
+  <!-- External JavaScript -->
+  <script src="scripts/rock-paper-scissors.js"></script>
+</body>
+
+</html>
+```
 ## ✊✋✌️ Rock Paper Scissors Game Logic (JavaScript)
 
 This interactive game allows users to play Rock, Paper, Scissors against the computer. It includes score tracking, keyboard shortcuts, and an autoplay feature using `setInterval`.
